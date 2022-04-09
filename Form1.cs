@@ -34,6 +34,7 @@ namespace ExeDataGridView_C
             this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.Maroon;
 
             dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Times New Roman", 12, FontStyle.Bold);
         }
         private void dataGridView1_CellMouseMove(object sender, DataGridViewCellMouseEventArgs e)
